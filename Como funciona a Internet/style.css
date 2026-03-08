@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1;
+}
+footer{
+    text-align: center;
+    color: white;
+    padding: 15px;
+
+}
+.link-central{
+    font-size: 3em;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.link-central:hover{
+    text-decoration: underline;
+}
+.link-central:active{
+    color: red;
+}
+h3{
+    text-align: center;
+}

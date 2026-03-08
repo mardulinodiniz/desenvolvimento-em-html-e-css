@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+html, body{
+    height: 100%;
+    margin: 0;
+    
+}
+body{
+    background-color: #2b4fa3;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centralizado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 3em;
+    margin-top: 20px;
+}
+main{
+    
+}
+footer{
+    
+}
+.centralizado:hover{
+    text-decoration: underline;
+}
+.centralizado:active{
+    color: red;
+}
+main{
+    text-align: right;
+    margin-top: 200px;
+}

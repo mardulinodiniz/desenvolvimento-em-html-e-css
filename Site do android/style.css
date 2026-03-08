@@ -1,0 +1,132 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c5ebd6;
+}
+header{
+    background-image: linear-gradient(to top, #1a5c38, #3acf7d);
+    padding: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.paragrafo-header1{
+    text-align: center;
+}
+.paragrafo-header2{
+    text-align: center;
+    padding-bottom: 40px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+a:hover{
+    background-color: #3acf7d;
+    width: auto;
+    padding: 3px;
+    border-radius: 3px;
+}
+#menu{
+    margin-bottom: -25px;
+}
+#section-principal{
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 12px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.384);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.imagem1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.imagem2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.imagem3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@font-face{
+    font-family: 'IDroid Regular';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+.titulo1{
+    text-align: left;
+    font-family: 'IDroid Regular';
+    color: #1a5c38;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.6;
+}
+.subtitulo1{
+    background-image: linear-gradient(to right, #3acf7d94, #c8ffe100);
+    font-family: 'IDroid Regular';
+    color: #1a5c38;
+    padding-left: 5px;
+    font-size: 20px;
+}
+.subtitulo2{
+    background-image: linear-gradient(to right, #3acf7d94, #c8ffe100);
+    font-family: 'IDroid Regular';
+    color: #1a5c38;
+    padding-left: 5px;
+    font-size: 20px;
+}
+.imagem4{
+    background-color: #1a5c38;
+    width: 395px;
+    margin: auto;
+    padding: 10px;
+}
+#versoes{
+    background-color: #95ceae;
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.425);
+}
+.quer-aprender{
+    margin-top: 12px;
+    background-color: #48ac75;
+    color: white;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.425);
+}
+#listas{
+    columns: 2;
+}
+.segunda-lista{
+    
+}
+.paragrafo-footer{
+    background-color: #1a5c38;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    padding: 3px;
+}
+footer > p{
+    margin: 0;
+}

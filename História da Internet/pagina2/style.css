@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-color: #2b4fa3;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1;
+}
+footer{
+   text-align: center; 
+   padding: 15px;
+}
+#footer1{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.541);
+    padding: auto;
+    background-color: rgb(16, 3, 97);
+    border-top: solid 1px rgba(255, 255, 255, 0.616);
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.288);
+}
+.centro{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    text-decoration: none;
+    color: white;
+}
+.centro:hover{
+    text-decoration: underline;
+}
+.centro:active{
+    color: red;
+}
+section{
+    width: 50%;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 150px;
+
+}
+section p{
+    text-align: justify;
+    line-height: 1.8;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.486);
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: rgb(255, 255, 255);
+}
+.plataform{
+    text-align: left;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    border: solid 1px rgba(255, 255, 255, 0.397);
+    width: 250px;
+    padding-left: 15px;
+    margin-left: 90px;
+    padding: 12px;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.13);
+
+}
+.titulo-plataformas{
+    text-align: left;
+    padding-left: 150px;
+}
+
