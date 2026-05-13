@@ -1,0 +1,104 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{
+    font-family: 'Pacifico';
+    src: url(fontes/Pacifico-Regular.ttf) format(truetype);
+}
+@font-face{
+    font-family: 'Amatic SC';
+    src: url(fontes/AmaticSC-Regular.ttf) format(truetype);
+}
+@font-face{
+    font-family: 'Fredoka';
+    src: url(fontes/Fredoka-VariableFont_wdth\,wght.ttf) format(truetype);
+}
+
+@font-face{
+    font-family: 'Roboto';
+    src: url(fontes/RobotoSlab-VariableFont_wght.ttf) format(truetype);
+}
+
+:root{
+    --fontePadrao: Arial, Helvetica, 
+     --font-textos: 'Roboto';
+    --font-titulos: 'Pacifico';
+    --font-subtitulos: 'Fredoka';
+    --font2-subtitulos: 'Amatic SC';
+}
+html, body{
+    font-family: var(--fontePadrao);
+    min-height: 100vh;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    font-size: 5vmin;
+    font-family: var(--font-textos);
+    padding-top: 30px;
+    font-variant: small-caps;
+}
+header > p{
+    padding-bottom: 30px;
+    font-weight: bolder;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 4.5vmin;
+    font-family: var(--font-subtitulos);
+    padding-left: 20px;
+    line-height: 2;
+}
+section.normal{
+    background-color: white;
+    color: black;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+section.normal > p{
+    padding-bottom: 10vh;
+}
+section.imagem{
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.497);
+    background-color: rgb(98, 98, 98);
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-attachment: fixed;
+}
+section.imagem > p{
+    display:inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.455);
+}
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+}
+section#img02 > p{
+    text-shadow: 5px 5px 15px black;
+}
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor1: #c7d3e0;
+    --cor2: #0e1b33;
+    --cor3: #117ae0;
+    --cor4: #0949a5;
+    --cor5: #5faef8;
+}
+body{
+    background-color: var(--cor5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: justify;
+    line-height: 1.6;
+}
+header{
+    background-color: var(--cor3);
+    height: 150px;
+    position: relative;
+    box-shadow: 2px 2px 6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+}
+header h1{
+   text-align: center;
+}
+section h1{
+    color: var(--cor4);
+}
+main{
+    
+    padding: 12px;
+    border-radius: 12px;
+    border: solid 1px #8499c2 ;
+    max-width: 700px;
+    background-color: var(--cor1);
+    margin: auto;
+}
